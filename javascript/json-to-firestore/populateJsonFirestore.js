@@ -136,4 +136,17 @@ const populateFireStore = new PopulateJsonFireStore();
 populateFireStore.populate();
 
 // command to run
+// generate random key
 //node json-to-firestore/populateJsonFirestore.js ./json-to-firestore/data.json add demo-users
+
+//using id so need id on the table
+//example
+// [
+//   {
+//   "id" : 10,
+//   },
+//   {
+//     "id" : 11,
+//   }
+// ]
+//node json-to-firestore/populateJsonFirestore.js ./json-to-firestore/data.json set demo-users
